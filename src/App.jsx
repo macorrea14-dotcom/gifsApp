@@ -4,7 +4,7 @@ import { events } from "./data/events";
 import { Event } from "./components/Event"
 
 export const App = () => {
-
+    const dataEvents = events
     return(
         <>
             {dataEvents.map((event) =>{
