@@ -1,12 +1,11 @@
 import React from "react";
-import { Header } from "./components/header";
+import { Header } from "./components/Header";
 
 export const App = () => {
-    const title  = "GifsApp";
 
-
-    return
-    <>
-        <Header />
-    </>
-}
+    return(
+        <>
+            <Header />
+        </>
+    );
+};
